@@ -1,0 +1,90 @@
+.courses-container {
+  background-color: #f9f9fb;
+  padding: 4rem 1rem;
+  text-align: center;
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.section-label {
+  color: #7c3aed;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.section-description {
+  color: #6b7280;
+  font-size: 18px;
+  max-width: 900px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 1rem auto 3rem;
+}
+
+.courses-grid {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.course-item {
+  max-width: 300px;
+}
+
+.icon-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e8ff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  margin: auto;
+}
+.icon{
+  color: #7c3aed;
+}
+.course-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.course-description {
+  color: #585a5e;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.button-container {
+  margin-top: 3rem;
+}
+
+.explore-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: #8b5cf6;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.explore-button:hover {
+  background-color: #7c3aed;
+}
+
+.arrow-icon {
+  margin-left: 0.5rem;
+}
