@@ -8,6 +8,7 @@ import CoursesSection from "./Components/CoursesSection";
 import SposerShipPage from "./Components/SponserShipPage";
 import Footer from "./Components/Footer";
 import ContactUs from "./Components/Contactus";
+import WhatsAppIcon from "./Components/Whatsapp";
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
               <CoursesSection/>
               <SposerShipPage />
               <ContactUs/>
+              <WhatsAppIcon/>
               <Footer/>
              
             </>

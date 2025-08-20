@@ -68,3 +68,60 @@
 .contact-form button:hover {
   background-color: #2312de;
 }
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .contact-details {
+    width: 100%;
+    margin: 40px 0 20px;
+    text-align: center;
+  }
+
+  .contact-details p {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form button {
+    width: 100%;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-section {
+    padding: 40px 16px;
+  }
+
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact-details {
+    font-size: 14px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .contact-form button {
+    font-size: 0.95rem;
+    padding: 14px;
+  }
+
+  .contact-head {
+    font-size: 14px;
+  }
+}

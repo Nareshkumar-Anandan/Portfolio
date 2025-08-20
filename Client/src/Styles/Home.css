@@ -83,7 +83,7 @@
 /* Responsive */
 @media screen and (max-width: 1024px) {
   .home-container {
-    flex-direction: column;
+    flex-direction: column-reverse; /* Image comes first */
     align-items: center;
     padding: 40px 20px;
     text-align: center;
@@ -96,11 +96,33 @@
     text-align: center;
   }
 
+  .home-right {
+    margin-bottom: 30px; /* Space below image */
+  }
+
   .home-right img {
-    margin-top: 30px;
+    width: 280px;
+    height: 280px;
+    margin-top: 0;
+  }
+
+  .home-left h1 {
+    font-size: 28px;
+  }
+
+  .home-left p {
+    font-size: 16px;
+    text-align: left;
   }
 
   .button-group {
     justify-content: center;
   }
+
+  .btn-outline,
+  .btn-filled {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
 }
+

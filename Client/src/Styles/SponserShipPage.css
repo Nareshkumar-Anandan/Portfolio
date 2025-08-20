@@ -84,3 +84,67 @@
   line-height: 1.6;
   color: #555;
 }
+@media screen and (max-width: 1024px) {
+  .sponsorship-page {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .intro {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 14px;
+  }
+
+  .header h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-button {
+    font-size: 18px;
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sponsorship-page {
+    padding: 1.5rem 0.8rem;
+  }
+
+  .intro {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .header h2 {
+    font-size: 1.3rem;
+  }
+
+  .opportunity-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .opportunity-card p {
+    font-size: 14px;
+  }
+
+  .contact-button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .sponser-icon {
+    margin-left: 0;
+    text-align: center;
+  }
+}

@@ -88,3 +88,65 @@
 .arrow-icon {
   margin-left: 0.5rem;
 }
+@media screen and (max-width: 1024px) {
+  .section-heading {
+    font-size: 1.75rem;
+  }
+
+  .section-description {
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 28px;
+  }
+
+  .courses-grid {
+    gap: 50px;
+  }
+
+  .course-item {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .course-description {
+    font-size: 16px;
+  }
+
+  .explore-button {
+    font-size: 0.9rem;
+    padding: 0.65rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .courses-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .icon-circle {
+    width: 48px;
+    height: 48px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .course-title {
+    font-size: 18px;
+  }
+
+  .course-description {
+    font-size: 15px;
+  }
+
+  .explore-button {
+    font-size: 0.85rem;
+    padding: 0.6rem 1.2rem;
+  }
+}

@@ -10,21 +10,24 @@
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .profile-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   justify-content: center;
 }
 
 .profile-card {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   background-color: #e4e4e8;
-  padding: 40px;
+  padding: 30px;
   border-radius: 12px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  margin: 0 auto;
 }
 
 .card-title {
@@ -43,8 +46,34 @@
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+/* Tablet and below */
+@media screen and (max-width: 1024px) {
   .profile-cards {
-    grid-template-columns: 1fr; /* Stack cards on small screens */
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 250px;
+  }
+
+  .profile-name {
+    font-size: 24px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .profile-container {
+    padding: 20px 10px;
+  }
+
+  .profile-card {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-description {
+    font-size: 14px;
   }
 }
